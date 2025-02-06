@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://assets.xboxservices.com/assets/6c/82/6c823610-0a0a-4d8a-824f-fbe266a8278f.jpg?n=Fallout-76_GLP-Page-Hero-1084_1920x1080_07.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#titulo{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.titulos{
+    color: red;
+    font-size: 40px;
+}
+.titulos2{
+    color: orange;
+    font-size: 30px;
+}
+.textos{
+    color: white;
+}
+
+#sumario{
+    color: white;
+}
+
+#video{
+    padding-left: 35%;
+}
+
+ol {
+    background: rgb(67, 65, 65);
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+  }
+
+ol li {
+    background: rgb(67, 65, 65) ;
+    color:white;
+    padding: 5px;
+    margin-left: 35px;
+  }

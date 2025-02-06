@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Mejores Juegos</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6e7dff, #42e8f4);
+            color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: rgba(0, 0, 0, 0.7);
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Styling the game list */
+        .game-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .game-item {
+            background-color: #ffffff;
+            color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .game-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .game-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .game-item h3 {
+            font-size: 1.5em;
+            margin: 15px;
+            color: #0073e6;
+        }
+
+        .game-item p {
+            margin: 10px 15px;
+            line-height: 1.6;
+        }
+
+        .game-item p strong {
+            font-weight: bold;
+            color: #0073e6;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            header p {
+                font-size: 1.1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Los Mejores Juegos</h1>
+        <p>Descubre algunos de los juegos más populares y recomendados.</p>
+    </header>
+
+    <section>
+        <h2>Juegos Recomendados</h2>
+        <ul class="game-list">
+            <li class="game-item">
+                <img src="https://wallup.net/wp-content/uploads/2016/01/250377-video_games-artwork-The_Legend_of_Zelda.jpg" alt="The Legend of Zelda">
+                <h3>The Legend of Zelda: Breath of the Wild</h3>
+                <p><strong>Género:</strong> Aventura, Mundo Abierto</p>
+                <p>Un juego impresionante que lleva a los jugadores a un vasto mundo abierto lleno de desafíos, puzzles y una narrativa épica. La libertad de explorar y resolver problemas es lo que lo hace único.</p>
+            </li>
+            <li class="game-item">
+                <img src="https://th.bing.com/th/id/OIP.bJSS1-ccXRULdaNZhj1wNAHaEK?rs=1&pid=ImgDetMain" alt="The Witcher 3">
+                <h3>The Witcher 3: Wild Hunt</h3>
+                <p><strong>Género:</strong> RPG, Aventura</p>
+                <p>Una obra maestra del género RPG, con una narrativa profunda, personajes memorables y un mundo abierto increíblemente detallado. Las decisiones que tomas afectan directamente el destino del mundo.</p>
+            </li>
+            <li class="game-item">
+                <img src="https://gaming-cdn.com/images/products/442/616x353/minecraft-java-bedrock-edition-java-bedrock-edition-pc-juego-cover.jpg?v=1716387513" alt="Minecraft">
+                <h3>Minecraft</h3>
+                <p><strong>Género:</strong> Sandbox, Supervivencia</p>
+                <p>Un juego que permite a los jugadores construir y explorar mundos infinitos. Con un enfoque en la creatividad y la cooperación, Minecraft se ha convertido en uno de los juegos más populares de todos los tiempos.</p>
+            </li>
+            <li class="game-item">
+                <img src="https://www.ruinnation.com/assets/2018/05/red-dead-redemption-2-trailer.jpg" alt="Red Dead Redemption 2">
+                <h3>Red Dead Redemption 2</h3>
+                <p><strong>Género:</strong> Acción, Aventura</p>
+                <p>Una épica aventura de acción que te lleva al salvaje oeste. Con un mundo abierto impresionante y una narrativa profunda, ofrece una experiencia cinematográfica que pocos juegos pueden igualar.</p>
+            </li>
+            <li class="game-item">
+                <img src="https://www.cinepremiere.com.mx/wp-content/uploads/2017/11/Mario-OdysseyMain.jpg" alt="Super Mario Odyssey">
+                <h3>Super Mario Odyssey</h3>
+                <p><strong>Género:</strong> Plataforma, Aventura</p>
+                <p>Uno de los mejores juegos de plataformas en 3D. Mario viaja a través de mundos llenos de sorpresas y aventuras, mientras rescata a la princesa Peach y enfrenta a Bowser en esta colorida y divertida entrega.</p>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
